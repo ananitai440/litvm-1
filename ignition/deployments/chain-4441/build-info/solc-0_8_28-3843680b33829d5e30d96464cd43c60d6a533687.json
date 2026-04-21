@@ -1,0 +1,39 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_28-3843680b33829d5e30d96464cd43c60d6a533687",
+  "solcVersion": "0.8.28",
+  "solcLongVersion": "0.8.28+commit.7893614a",
+  "userSourceNameMap": {
+    "contracts/count.sol": "project/contracts/count.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "cancun",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/count.sol": {
+        "content": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.8.0;\r\n\r\ncontract Count{\r\n    int private num;\r\n\r\n    function inc()public returns(int){\r\n        num++;\r\n        return num;\r\n    }\r\n    function dec() public returns(int){\r\n        num--;\r\n        return num;\r\n    }\r\n\r\n    function showNum()public view returns(int){\r\n        return num;\r\n    }\r\n}\r\n"
+      }
+    }
+  }
+}

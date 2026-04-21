@@ -1,0 +1,25 @@
+{
+  "name": "litvm-t1",
+  "packageManager": "yarn@4.11.0",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^3.0.0",
+    "@nomicfoundation/hardhat-ethers": "^4.0.6",
+    "@nomicfoundation/hardhat-ignition": "^3.0.9",
+    "@nomicfoundation/hardhat-ignition-viem": "^3.0.9",
+    "@nomicfoundation/hardhat-keystore": "^3.0.6",
+    "@nomicfoundation/hardhat-mocha": "^3.0.13",
+    "@nomicfoundation/hardhat-verify": "^3.0.12",
+    "@nomicfoundation/hardhat-viem": "^3.0.4",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.8.5",
+    "chai": "^6.2.2",
+    "dotenv": "^17.4.2",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.1.12",
+    "mocha": "^11.7.5",
+    "typescript": "~5.8.0",
+    "viem": "^2.47.4"
+  },
+  "type": "module"
+}

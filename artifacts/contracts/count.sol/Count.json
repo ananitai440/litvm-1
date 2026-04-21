@@ -1,0 +1,53 @@
+{
+  "_format": "hh3-artifact-1",
+  "contractName": "Count",
+  "sourceName": "contracts/count.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "dec",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "inc",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "showNum",
+      "outputs": [
+        {
+          "internalType": "int256",
+          "name": "",
+          "type": "int256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600e575f5ffd5b506101008061001c5f395ff3fe6080604052348015600e575f5ffd5b5060043610603a575f3560e01c80631c8763e114603e578063371303c0146053578063b3bcfa82146059575b5f5ffd5b5f545b60405190815260200160405180910390f35b6041605f565b60416077565b5f80548180606b836097565b91905055505f54905090565b5f80548180606b8360b2565b634e487b7160e01b5f52601160045260245ffd5b5f6001600160ff1b01820160ab5760ab6083565b5060010190565b5f600160ff1b820160c35760c36083565b505f19019056fea264697066735822122079fade75699eb45ecfaa4b3110c9e1b765e00ae0a15c600c65dd9272946f176164736f6c634300081c0033",
+  "deployedBytecode": "0x6080604052348015600e575f5ffd5b5060043610603a575f3560e01c80631c8763e114603e578063371303c0146053578063b3bcfa82146059575b5f5ffd5b5f545b60405190815260200160405180910390f35b6041605f565b60416077565b5f80548180606b836097565b91905055505f54905090565b5f80548180606b8360b2565b634e487b7160e01b5f52601160045260245ffd5b5f6001600160ff1b01820160ab5760ab6083565b5060010190565b5f600160ff1b820160c35760c36083565b505f19019056fea264697066735822122079fade75699eb45ecfaa4b3110c9e1b765e00ae0a15c600c65dd9272946f176164736f6c634300081c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {},
+  "immutableReferences": {},
+  "inputSourceName": "project/contracts/count.sol",
+  "buildInfoId": "solc-0_8_28-3843680b33829d5e30d96464cd43c60d6a533687"
+}
